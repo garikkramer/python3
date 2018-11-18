@@ -1,0 +1,1 @@
+docker build -t garik/python3 ./DockerFile_python.txt

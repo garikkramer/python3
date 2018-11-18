@@ -1,6 +1,6 @@
 FROM python:3.6-alpine
 
 RUN pip3 install --upgrade pip
-RUN pip3 install --upgrade numpy scipy matplotlib scikit-learn pandas seaborn plotly statsmodels happybase python-docs flask
+RUN pip3 install --upgrade numpy pandas happybase python-docs flask
 
 CMD ["python3"]
